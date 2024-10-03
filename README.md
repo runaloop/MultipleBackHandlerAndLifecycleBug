@@ -5,7 +5,7 @@ Version used: 2.8.2(previous version have same issue up to 2.7.7)
 Devices/Android versions reproduced on: any
 
 ### Description
-Documentation says: "If this is called by nested compostables, if enabled, the innermost composable will consume the call to system back and invoke its lambda."
+Documentation says: "If this is called by nested composables, if enabled, the inner most composable will consume the call to system back and invoke its lambda."
 But that behavior changes if the activity is paused and resumed.
 
 ### Steps to reproduce:
