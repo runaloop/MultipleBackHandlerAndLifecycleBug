@@ -1,7 +1,10 @@
+
+### Video demonstration:
+
+https://youtu.be/W4vm-hYhUo8
+
 Component used: Navigation
-
 Version used: 2.8.2(previous version have same issue up to 2.7.7)
-
 Devices/Android versions reproduced on: any
 
 ### Description
@@ -56,6 +59,3 @@ Regardless of whether lifecycle methods are called, the priority of the BackHand
 
 
 This issue is not same as issue - https://issuetracker.google.com/issues/279118447, it's different because in my case, the root BackHandler is overridden by the innermost BackHandler while navigation happens and the order of calls for the root Backhandler is different.
-
-- Sample project to trigger the issue: [MultipleBackHandlerAndLifecycleBug](https://github.com/runaloop/MultipleBackHandlerAndLifecycleBug)
-- A screenrecord or screenshots showing the issue (if UI related): [![Watch Video](https://img.youtube.com/vi/W4vm-hYhUo8/0.jpg)](https://youtu.be/W4vm-hYhUo8)
